@@ -358,6 +358,10 @@ section:nth-child(even) {
     background: linear-gradient(45deg, #FF694B, #FF8E6B);
 }
 
+.skill-tag.excel {
+    background: linear-gradient(45deg, #217346, #28a745);
+}
+
 /* About Section */
 .about-content {
     max-width: 1000px;

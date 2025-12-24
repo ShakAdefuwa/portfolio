@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Workflows, Validation and cleaning</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>CRM Workflows, Validation and cleaning</h1>
+                <p>Data integrity improvement through systematic Excel cleaning and CRM lead management</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#before-after">Before & After</a></li>
+                <li><a href="#video">Video Demonstration</a></li>
+                <li><a href="#objective">Project Objective</a></li>
+                <li><a href="#process">Project Process</a></li>
+                <li><a href="#workflows-video">Workflows & Validation</a></li>
+                <li><a href="#data-integrity">Data Integrity Comments</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="before-after" class="before-after-section">
+        <div class="container">
+            <h2 class="section-title">Before & After Comparison</h2>
+            <div class="comparison-container">
+                <div class="comparison-item">
+                    <h3>Before</h3>
+                    <img src="Excel_Zoho_highlighted_errors.png" alt="Excel Zoho Highlighted Errors" class="comparison-image">
+                </div>
+                <div class="comparison-item">
+                    <h3>After</h3>
+                    <img src="Excel_Zoho_fixed_errors_3.png" alt="Excel Zoho Fixed Errors" class="comparison-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="video-section">
+        <div class="container">
+            <h2 class="section-title">Video Demonstration</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ky4bX5fhqII?si=aDkLYgCUTywSwYEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="objective" class="objective-section">
+        <div class="container">
+            <h2 class="section-title">Project Objective</h2>
+            <div class="objective-content">
+                <p>Basic practice of Excel and further familiarising myself with CRMs</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process-section">
+        <div class="container">
+            <h2 class="section-title">Project Process</h2>
+            <div class="process-container">
+                <div class="process-step">
+                    <div class="icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>CRM Data Exported as CSV</h3>
+                    <p>Exported lead data from Zoho CRM in CSV format for analysis and cleaning</p>
+                </div>
+                <div class="process-step">
+                    <div class="icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>Cleaned in Excel</h3>
+                    <p>Systematically cleaned the data using Excel functions, removing errors and inconsistencies</p>
+                </div>
+                <div class="process-step">
+                    <div class="icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Updated the Data Within the CRM</h3>
+                    <p>Imported the cleaned data back into Zoho CRM to update lead records with accurate information</p>
+                </div>
+                <div class="process-step">
+                    <div class="icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3>Created Workflow Rules</h3>
+                    <p>Created workflow rules that added and removed tags automatically based on data conditions</p>
+                </div>
+                <div class="process-step">
+                    <div class="icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Created Validation Rule</h3>
+                    <p>Created validation rule preventing the entry of an empty value without confirmation</p>
+                </div>
+                <div class="process-step">
+                    <div class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>Editted and Uploaded process to youtube</h3>
+                    <p>Edited and uploaded the complete process demonstration to YouTube for documentation and sharing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="workflows-video" class="video-section">
+        <div class="container">
+            <h2 class="section-title">Zoho CRM Workflows and Validation Rule Examples</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dB7BMFQbHwU?si=h-30iXwGVQuXCZal" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="data-integrity" class="data-integrity-section">
+        <div class="container">
+            <h2 class="section-title">Data Integrity Comments</h2>
+            <div class="integrity-content">
+                <ul>
+                    <li><strong>Didn't delete duplicates</strong> - Just in case there are important connections within the CRM I'm unaware of</li>
+                    <li><strong>Changed mobile number/Country</strong> - Under the assumption that these had been automatically changed by a known system error. Scenario-based approach.</li>
+                    <li><strong>Removed test@test.com</strong> - Leaving cells blank, as this definitely reduces confusion.</li>
+                    <li><strong>Added descriptions for inferred emails</strong> - Placed in secondary email column. Would likely flag the system for a primary email replacement request.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-info">
+                    <h2>Shak Adefuwa</h2>
+                    <p class="contact-title">Data Analytics Professional</p>
+                    <p class="contact-description">
+                        Passionate about transforming data into actionable business insights. 
+                        Experienced in SQL, Power BI, Excel, and business intelligence solutions 
+                        that drive operational excellence and strategic decision-making.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:sadefuwa@gmail.com">sadefuwa@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+447399769306">07399 769 306</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/shakadefuwa/" target="_blank">linkedin.com/in/shakadefuwa</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-photo">
+                    <img src="../myface.jpg" alt="Shak Adefuwa" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Excel Data Cleaning with Zoho CRM Project</p>
+            <div class="footer-links">
+                <a href="https://shakadefuwa.github.io/portfolio/" target="_blank">
+                    <i class="fas fa-arrow-left"></i> Back to Portfolio
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
