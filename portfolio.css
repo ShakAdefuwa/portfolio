@@ -974,18 +974,13 @@ footer p {
         font-size: 1.4rem;
     }
 
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
     .hero-tagline {
         font-size: 1rem;
         padding: 0 10px;
-    }
-
-    .hero-highlights {
-        gap: 8px;
-    }
-
-    .highlight-pill {
-        font-size: 0.8rem;
-        padding: 6px 12px;
     }
 
     .demo-showcase {
