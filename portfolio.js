@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, observerOptions);
     
     // Observe elements for animation
-    const animateElements = document.querySelectorAll('.project-card, .education-item, .experience-item');
+    const animateElements = document.querySelectorAll('.project-card, .education-item, .experience-item, .edtech-card, .demo-showcase');
     animateElements.forEach(el => observer.observe(el));
     
     // Add typing effect to hero section

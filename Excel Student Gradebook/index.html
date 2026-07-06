@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRM Workflows, Validation and cleaning</title>
+    <title>Student Gradebook in Excel</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../shared-profile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -11,129 +11,117 @@
 <body>
     <header class="hero">
         <div class="container">
-            <div class="hero-content">
-                <h1>CRM Workflows, Validation and cleaning</h1>
-                <p>Data integrity improvement through systematic Excel cleaning and CRM lead management</p>
-            </div>
+            <h1>Student Gradebook in Excel</h1>
+            <p>A gradebook in Excel for collecting student assessment data and calculating the final grades.</p>
         </div>
     </header>
 
-    <nav>
+    <nav class="navbar">
         <div class="container">
             <ul>
-                <li><a href="#before-after">Before & After</a></li>
-                <li><a href="#video">Video Demonstration</a></li>
-                <li><a href="#objective">Project Objective</a></li>
-                <li><a href="#process">Project Process</a></li>
-                <li><a href="#workflows-video">Workflows & Validation</a></li>
-                <li><a href="#data-integrity">Data Integrity Comments</a></li>
+                <li><a href="#gradebook">Gradebook</a></li>
+                <li><a href="#context">Context</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#reflections">Reflections</a></li>
             </ul>
         </div>
     </nav>
 
-    <section id="before-after" class="before-after-section">
+    <section id="gradebook" class="gradebook-section">
         <div class="container">
-            <h2 class="section-title">Before & After Comparison</h2>
-            <div class="comparison-container">
-                <div class="comparison-item">
-                    <h3>Before</h3>
-                    <img src="Excel_Zoho_highlighted_errors.png" alt="Excel Zoho Highlighted Errors" class="comparison-image">
-                </div>
-                <div class="comparison-item">
-                    <h3>After</h3>
-                    <img src="Excel_Zoho_fixed_errors_3.png" alt="Excel Zoho Fixed Errors" class="comparison-image">
-                </div>
+            <h2>Excel Gradebook</h2>
+            <div class="gradebook-showcase">
+                <img src="Screenshot of gradebook.png" alt="Screenshot of Excel student gradebook" class="gradebook-image">
             </div>
+            <p class="gradebook-note">A structured workbook used to record module tests, practical marks and continuous-assessment grades across the academic year.</p>
         </div>
     </section>
 
-    <section id="video" class="video-section">
+    <section id="context" class="context-section">
         <div class="container">
-            <h2 class="section-title">Video Demonstration</h2>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ky4bX5fhqII?si=aDkLYgCUTywSwYEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-
-    <section id="objective" class="objective-section">
-        <div class="container">
-            <h2 class="section-title">Project Objective</h2>
-            <div class="objective-content">
-                <p>Basic practice of Excel and further familiarising myself with CRMs</p>
+            <h2>Context</h2>
+            <div class="context-content">
+                <p>I used this Excel spreadsheet during my time as a teacher in Abu Dhabi. It allowed tracking of student attainment and, more importantly, simplified how I'd calculate the continuous-assessment portion of students' final grades.</p>
             </div>
         </div>
     </section>
 
     <section id="process" class="process-section">
         <div class="container">
-            <h2 class="section-title">Project Process</h2>
-            <div class="process-container">
-                <div class="process-step">
-                    <div class="icon">
-                        <i class="fas fa-download"></i>
+            <h2>Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Plan Assessments</h3>
+                        <p>Mapped out the module tests, practicals and weightings for the academic year before building the workbook.</p>
                     </div>
-                    <h3>CRM Data Exported as CSV</h3>
-                    <p>Exported lead data from Zoho CRM in CSV format for analysis and cleaning</p>
                 </div>
-                <div class="process-step">
-                    <div class="icon">
-                        <i class="fas fa-broom"></i>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Build the Gradebook</h3>
+                        <p>Created the Excel structure with tables, columns and a layout ready to collect marks across the full year.</p>
                     </div>
-                    <h3>Cleaned in Excel</h3>
-                    <p>Systematically cleaned the data using Excel functions, removing errors and inconsistencies</p>
                 </div>
-                <div class="process-step">
-                    <div class="icon">
-                        <i class="fas fa-sync-alt"></i>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Future-Proof Formulas</h3>
+                        <p>Designed dynamic formulas so the weighting of each test and practical could be adjusted without rebuilding the sheet.</p>
                     </div>
-                    <h3>Updated the Data Within the CRM</h3>
-                    <p>Imported the cleaned data back into Zoho CRM to update lead records with accurate information</p>
                 </div>
-                <div class="process-step">
-                    <div class="icon">
-                        <i class="fas fa-tags"></i>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Track &amp; Calculate</h3>
+                        <p>Entered marks throughout the year and used the gradebook to calculate each student's continuous-assessment final grade.</p>
                     </div>
-                    <h3>Created Workflow Rules</h3>
-                    <p>Created workflow rules that added and removed tags automatically based on data conditions</p>
-                </div>
-                <div class="process-step">
-                    <div class="icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Created Validation Rule</h3>
-                    <p>Created validation rule preventing the entry of an empty value without confirmation</p>
-                </div>
-                <div class="process-step">
-                    <div class="icon">
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                    <h3>Editted and Uploaded process to youtube</h3>
-                    <p>Edited and uploaded the complete process demonstration to YouTube for documentation and sharing</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="workflows-video" class="video-section">
+    <section id="insights" class="insights-section">
         <div class="container">
-            <h2 class="section-title">Zoho CRM Workflows and Validation Rule Examples</h2>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dB7BMFQbHwU?si=h-30iXwGVQuXCZal" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>Insights</h2>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <div class="insight-value">84.4%</div>
+                    <h3>Class Average</h3>
+                    <p>Overall class performance across all assessed modules.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-value">77% – 92%</div>
+                    <h3>Grade Range</h3>
+                    <p>Spread of final continuous-assessment grades across the class.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-value">100%</div>
+                    <h3>Pass Rate</h3>
+                    <p>Every student met the minimum threshold for continuous assessment.</p>
+                </div>
+                <div class="insight-card">
+                    <div class="insight-value">87.3%</div>
+                    <h3>Highest Category</h3>
+                    <p>Practicals were the strongest performing assessment type.</p>
+                </div>
+                <div class="insight-card insight-card-wide">
+                    <div class="insight-value">+16.1%</div>
+                    <h3>Improvement (Test 1 → Test 9)</h3>
+                    <p>Class average rose steadily across the year, showing sustained progress.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="data-integrity" class="data-integrity-section">
+    <section id="reflections" class="reflections-section">
         <div class="container">
-            <h2 class="section-title">Data Integrity Comments</h2>
-            <div class="integrity-content">
-                <ul>
-                    <li><strong>Didn't delete duplicates</strong> - Just in case there are important connections within the CRM I'm unaware of</li>
-                    <li><strong>Changed mobile number/Country</strong> - Under the assumption that these had been automatically changed by a known system error. Scenario-based approach.</li>
-                    <li><strong>Removed test@test.com</strong> - Leaving cells blank, as this definitely reduces confusion.</li>
-                    <li><strong>Added descriptions for inferred emails</strong> - Placed in secondary email column. Would likely flag the system for a primary email replacement request.</li>
-                </ul>
+            <h2>Reflections &amp; Learnings</h2>
+            <div class="reflections-content">
+                <p>The continuous tracking of student attainment allowed for immediate constructive feedback to students and their parents, backed by data. It also allowed me to discuss grades and student progress very easily with my line manager. This was helpful as it gave my words more weight.</p>
+                <p>I refined the formula for calculating the portions each module test and practical contributed a few times until I settled on a dynamic one that allowed for flexibility.</p>
             </div>
         </div>
     </section>
@@ -229,5 +217,20 @@
             <a href="../index.html"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
         </div>
     </footer>
+
+    <script>
+        document.querySelectorAll('.navbar a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
